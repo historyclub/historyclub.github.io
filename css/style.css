@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    color: white !important;
+
+    background-image: linear-gradient(to right, #1c7265, rgba(0, 0, 0, 0)), url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-tt-com.nmo.at%2Fv2%2Fassets.tt.com%2Fim-content%2Fimages%2Fd658d09d-0072-5753-8dd7-dcab10e00473%3Fp%3DeyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6MTIwMCwiaGVpZ2h0Ijo2MzB9fQ%253D%253D&f=1&nofb=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+	
+	width:100%;
+	height:100%;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.header {
+  font-size: 64px;
+}
+
+.bottom-left {
+    position: absolute;
+    left: 24px;
+    bottom: 10px;
+}
+
+@media screen and (max-width: 756px) {
+    .header {
+        font-size: 40px;
+    }
+}
